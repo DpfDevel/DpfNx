@@ -1,0 +1,7 @@
+{
+  "extends": "../../tslint.json",
+  "rules": {
+    "directive-selector": [true, "attribute", "dpfWorkspace", "camelCase"],
+    "component-selector": [true, "element", "dpf-workspace", "kebab-case"]
+  }
+}

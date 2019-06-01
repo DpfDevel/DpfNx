@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Todo } from '@dpf-workspace/data';
 
 @Component({
   selector: 'dpf-workspace-root',
@@ -6,5 +7,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'todos';
+
+  todo: Todo;
+
+  constructor() {
+    this.todo = {
+      title: 'Ala ma kota'
+    }
+  }
 }

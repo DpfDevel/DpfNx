@@ -16,7 +16,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@dpf-workspace/data": ["libs/data/src/index.ts"]
+      "@dpf-workspace/data": ["libs/data/src/index.ts"],
+      "@dpf-workspace/ui": ["libs/ui/src/index.ts"],
+      "@dpf-workspace/components": ["libs/components/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
